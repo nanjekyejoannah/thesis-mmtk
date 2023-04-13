@@ -1,0 +1,22 @@
+Alloc
+
+- call post alloc always
+- Thread-local variable
+- Experiment on global variable accessing the right value
+1. mmtk should handle all objects <recommended>
+# If not then it should be a root <not a better option>
+
+Research
+- lbo methodology
+- Porting
+- 
+
+# correct allignment and tot_size
+# Do some checking on VM/pypy
+
+Collect
+collect is automatica
+collect() shouldnt invoke ant mmtk calls
+
+Exception at the beginning of the fucntion
+Ensure transformation never calls def collect()
